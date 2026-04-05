@@ -4,7 +4,7 @@ import os
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-API_URL      = "https://perfectworld.azurewebsites.net/cc/api.php"
+API_URL      = "https://staging-payment.great-site.net/gp/cc/api.php"
 POLL_INTERVAL = 5   # seconds between GET requests
 
 # ── Your processing function ──────────────────────────────────────────────────
